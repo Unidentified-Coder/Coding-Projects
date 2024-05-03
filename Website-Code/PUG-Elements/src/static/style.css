@@ -1,0 +1,91 @@
+html,
+body {
+  font-size: 12px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main{
+  display : flex;
+}
+.layout {
+  display: flex;
+  flex-direction: column ;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem 3rem;
+}
+
+h1 {
+  font-size: xx-large;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+nav b {
+  font-size: large;
+}
+
+nav a {
+  color: #181818;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(197, 44, 46);
+}
+
+.layout-content {
+  padding-top: 1.5rem;
+}
+
+footer{
+  margin-top: auto;
+  text-align: center;
+}
+
+/* Button container */
+.button-container {
+  position: fixed;
+  top: 20px; /* Adjust this value to change the vertical position */
+  left: 20px; /* Adjust this value to change the horizontal position */
+  z-index: 999; /* Ensure the button appears above other content */
+}
+
+/* Button styles */
+.button {
+  padding: 10px 20px;
+  background-color: #a51919; /* Change to your desired background color */
+  color: #d72323; /* Change to your desired text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #f4ecec; /* Change to your desired hover background color */
+}

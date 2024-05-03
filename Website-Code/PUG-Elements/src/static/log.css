@@ -1,0 +1,25 @@
+/* Button container */
+.button-container {
+  position: fixed;
+  top: 20px; /* Adjust this value to change the vertical position */
+  left: 20px; /* Adjust this value to change the horizontal position */
+  z-index: 999; /* Ensure the button appears above other content */
+  background-image: url('bt.jpg'); /* Replace 'your_image.jpg' with the path to your desired image */
+  background-size: cover;
+  padding: 10px 20px; /* Adjust padding if needed */
+}
+
+/* Button styles */
+.button {
+  padding: 10px 20px;
+  color: #fff; /* Change to your desired text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #070d13; /* Change to your desired hover background color */
+}

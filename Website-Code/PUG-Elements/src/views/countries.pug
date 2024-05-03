@@ -1,0 +1,59 @@
+extends layout
+
+block head
+  link(rel="stylesheet", href="/countries.css")
+
+block content
+  style.
+    body {
+      background-image: url('kjopo.jpg');
+      background-size: cover; /* Adjust this property as needed */
+    }
+
+    table {
+      background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value for transparency */
+    }
+
+    /* CSS to center-align text within specific table cells */
+    td.text-center {
+      text-align: center; /* Center-align text within these table cells */
+    }
+
+  h2 Countries 
+  table
+    thead
+      tr
+        th| Code
+        th.text-center| Name
+        th| Continent
+        th| Region
+        th| SurfaceArea
+        th| IndepYear
+        th| Population
+        th| LifeExpectancy
+        th| GNP
+        th| GNPOld
+        th| LocalName
+        th| GovernmentForm
+        th| HeadOfState
+        th| Capital
+        th| Code2
+    tbody
+      each row, i in rows
+        tr
+          td.fit #{row.Code}
+          td.fit #{row.Name}
+          td #{row.Continent}
+          td #{row.Region}
+          td #{row.SurfaceArea}
+          td #{row.IndepYear}
+          - const population = new Intl.NumberFormat().format(row.Population);
+          td.fit.number.text-center #{population} 
+          td #{row.SurfaceArea}
+          td #{row.GNP}
+          td #{row.GNPOld}
+          td #{row.LocalName}
+          td #{row.GovernmentForm}
+          td #{row.HeadOfState}
+          td #{row.Capital}
+          td #{row.Code2}

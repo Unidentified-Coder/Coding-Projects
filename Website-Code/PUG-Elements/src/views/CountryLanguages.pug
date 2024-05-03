@@ -1,0 +1,31 @@
+extends layout
+
+block head
+  link(rel="stylesheet", href="/countrylanguages.css")
+
+block content
+  style.
+    body {
+      background-image: url('kjopo.jpg');
+      background-size: cover;
+    }
+
+    table {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+  h2 Country Languages
+  table
+    thead
+      tr
+        th.text-center| Country Code
+        th| Language
+        th| Is Official
+        th| Percentage
+    tbody
+      each row in rows
+        tr
+          td.fit #{row.CountryCode}
+          td #{row.Language}
+          td #{row.IsOfficial}
+          td.fit.number #{row.Percentage}%

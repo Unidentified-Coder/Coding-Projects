@@ -1,0 +1,19 @@
+html
+  head
+    link(rel="stylesheet", href="/style.css")
+    title Software Engineering Project
+    block head 
+
+  
+  main
+    .layout
+      .layout-nav
+        include mixins/nav
+        +navigation()
+     
+        
+      .layout-content
+        block content
+
+  footer
+    b © 2024 My Website. All rights reserved. 

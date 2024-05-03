@@ -1,0 +1,35 @@
+extends layout
+
+block head
+  link(rel="stylesheet", href="/cities.css")
+
+block content
+  style.
+    body {
+      background-image: url('kjopo.jpg');
+      background-size: cover; /* Adjust this property as needed */
+    }
+
+    table {
+      background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value for transparency */
+    }
+
+  h2 Cities 
+  table
+    thead
+      tr
+        th| ID
+        th.text-center| Country Code
+        th| City
+        th| District
+        th| Population
+    tbody
+      each row, i in rows
+        tr
+          td.fit
+            a(href=`/cities/${i + 1}`) #{i + 1}
+          td.fit #{row.CountryCode}
+          td #{row.Name}
+          td #{row.District}
+          - const population = new Intl.NumberFormat().format(row.Population);
+          td.fit.number #{population}

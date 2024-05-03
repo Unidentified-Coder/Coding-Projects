@@ -1,0 +1,59 @@
+:root {
+    --clr-table: rgba(0, 0, 0, 0.75);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bt.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    border: 1px solid var(--clr-table);
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--clr-table);
+    border-right: 1px solid var(--clr-table);
+    padding: 0.25rem 1rem;
+    text-align: center;
+    color: rgba(16, 14, 14, 0.85); /* Updated color for th and td */
+}
+
+/* Remove border-right for the last column */
+th:last-child,
+td:last-child {
+    border-right: none;
+    text-align: center;
+    font-size: large;
+}
+
+thead {
+    background-color: transparent; /* Set background color to transparent */
+}
+
+thead th {
+    color: rgb(8, 7, 7);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.fit {
+    width: 1px;
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.number {
+    font-family: monospace;
+    text-align: right;
+}
