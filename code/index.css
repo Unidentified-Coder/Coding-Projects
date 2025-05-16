@@ -5,4 +5,23 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    font-family: Cursed Timer ULiL;
+}
+
+.home{
+
+    border: blue dotted 150px;
+
+}
+
+.guest{
+
+    border: blue solid 150px;
+
+}
+
+#home_score{
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+
 }
