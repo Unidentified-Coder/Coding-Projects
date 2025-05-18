@@ -5,23 +5,29 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    font-family: Cursed Timer ULiL;
 }
 
-.home{
-
-    border: blue dotted 150px;
-
-}
-
+.home,
 .guest{
-
-    border: blue solid 150px;
+    font-family: "Cursed Timer", sans-serif;
+    font-size: 100px;
+    color:#F94F6D;
+    background: black;
+    padding: 50px 50px;
+    border-radius: 50px;
 
 }
 
-#home_score{
+.button, button{
+    justify-content: center;
+}
+
+#home_score,
+#guest_score{
+    width: 500px;
+    display: flex;
     text-align: center;
-    font-family: Cursed Timer ULiL;
+    margin: auto;
+    padding: 20px;
 
 }
