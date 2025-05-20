@@ -1,14 +1,17 @@
 # Coding-Projects
 Here are a list of coding projects I have taken onboard each have there on challenges and have required me as a junior coder to use different languages 
 
-Currently projects that are in progress
+Projects that I have completed
+  - CRUD (Website - Countries/Languages/Cities) - Using HTML CSS Node.js Docker Pug and SQl 
+  
   - Python Automated Scripts
       - WebScraping
           - Personal Finance Tracker
+          - Login-Scraping
       - Desktop Cleaner (File-Organiser)
-
-  - CRUD (Website - Countries/Languages/Cities) - Using HTML CSS Node.js Docker Pug and SQl 
+      - Password Generator
 
   - Smart Traffic Light System (STLS) - Python and Tkinter 
         - Image processing to alow a constant flow of traffic as well as changing the green light timer dependant on the amount of vehicles standstill
-    
+  - Basketball Counter Website - HTML CSS Javascript
+        - A simple user interface to count the amount of buckets scored in a team as well the fouls, the period and the time remaining
