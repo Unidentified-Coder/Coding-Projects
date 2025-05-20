@@ -18,8 +18,13 @@ body {
 
 }
 
-.button, button{
+.score_button{
     justify-content: center;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 
 #home_score,
