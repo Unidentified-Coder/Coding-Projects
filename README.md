@@ -10,9 +10,10 @@ Projects that I have completed
           - Login-Scraping
       - Desktop Cleaner (File-Organiser)
       - Password Generator
-
-  - Frontend Development
+  - University Project 
       - Smart Traffic Light System (STLS) - Python and Tkinter 
+  
+  - Frontend Development
             - Image processing to alow a constant flow of traffic as well as changing the green light timer dependant on the amount of vehicles standstill
       - Basketball Counter Website - HTML CSS Javascript
             - A simple user interface to count the amount of buckets scored in a team as well the fouls, the period and the time remaining
