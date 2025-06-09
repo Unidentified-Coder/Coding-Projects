@@ -7,14 +7,23 @@ let password1 = document.getElementById("pas1")
 let password2 = document.getElementById("pas2")
 
 // Next test that the ids are passing info through
-let a = 56
-let b = 21
+// let a = 56
+// let b = 21
 
-password1.textContent = a
-password2.textContent = b
+// password1.textContent = a
+// password2.textContent = b
 
 // Tests are successful
 
+// A function once clicked can generate 2 random passwords
+function new_pass(){
+    // For loop to go over items in the characters array
+    for (let i = 0; i < characters.length; i++){
+        // randomize the characters from and push it to the id
+        let a = Math.floor(Math.random() * 95 + 1)
 
+        
+    }
+}
 
 
