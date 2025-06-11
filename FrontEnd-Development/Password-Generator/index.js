@@ -15,15 +15,29 @@ let password2 = document.getElementById("pas2")
 
 // Tests are successful
 
+
 // A function once clicked can generate 2 random passwords
 function new_pass(){
+    // array created 
+    let pass1 = []
+    let pass2 = []
+    
     // For loop to go over items in the characters array
-    for (let i = 0; i < characters.length; i++){
+    for (let i = 0; i < 30; i++){
         // randomize the characters from and push it to the id
         let a = Math.floor(Math.random() * 95 + 1)
+        let b = Math.floor(Math.random() * 95 + 1)
+        // use a conditional statement to allow a character to be pushed to an array
+        if (pass1.length === 14 && pass2.length === 14){
+            pass1.push(a) 
+            pass2.push(b) 
 
-        
-    }
+        }
+    // // once array is filled with 15 characters them return them into the html
+    // pass1.textContent = password1
+    // pass2.textContent = password2
+    console.log(pass1)
+
 }
-
+}
 
