@@ -3,8 +3,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 // Firstly you are going to get the ids from HTML
-let password1 = document.getElementById("pas1")
-let password2 = document.getElementById("pas2")
+let password1 = document.getElementById("pass1")
+let password2 = document.getElementById("pass2")
 
 // Next test that the ids are passing info through
 // let a = 56
@@ -23,21 +23,19 @@ function new_pass(){
     let pass2 = []
     
     // For loop to go over items in the characters array
-    for (let i = 0; i < 30; i++){
+    for (let i = 0; i < 15; i++){
         // randomize the characters from and push it to the id
-        let a = Math.floor(Math.random() * 95 + 1)
-        let b = Math.floor(Math.random() * 95 + 1)
-        // use a conditional statement to allow a character to be pushed to an array
-        if (pass1.length === 14 && pass2.length === 14){
-            pass1.push(a) 
-            pass2.push(b) 
+        let a = characters[Math.floor(Math.random() * characters.length)]
+        let b = characters[Math.floor(Math.random() * characters.length)]
+        
+        pass1 += a
+        pass2 += b
+    // once array is filled with 15 characters theN return them into the html
+    password1.textContent = pass1
+    password2.textContent = pass2
 
-        }
-    // // once array is filled with 15 characters them return them into the html
-    // pass1.textContent = password1
-    // pass2.textContent = password2
-    console.log(pass1)
 
 }
 }
 
+new_pass()
