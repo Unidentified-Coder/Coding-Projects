@@ -2,6 +2,40 @@ body {
     margin: 0;
 }
 
+body{
+    background-color: #002339;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.display{
+    width: 100%;
+    margin: 50px 30px;
+    background: #fff;
+    color:  #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 26px 20px;
+    border-radius: 5px;    
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom:  4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+#pass1{
+    border-right: 50px;
+}
 #button{
     display: flexbox;
 }
