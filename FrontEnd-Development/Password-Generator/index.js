@@ -38,4 +38,3 @@ function new_pass(){
 }
 }
 
-new_pass()
