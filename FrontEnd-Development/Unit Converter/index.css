@@ -30,6 +30,12 @@ h1{
     padding-top: 40px;
     
 }
+h3{
+    margin: 10px 10px;
+    padding: 10px 30px;
+    color: #bfb3f6;
+    border: 1px solid #ffffff;
+}
 #Conversion{
     width: 117;
     height: 83;
