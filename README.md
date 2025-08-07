@@ -5,10 +5,7 @@ Projects that I have completed
   - CRUD (Website - Countries/Languages/Cities) - Using HTML CSS Node.js Docker Pug and SQl 
   
   - Python Automated Scripts
-      - WebScraping
-          - Personal Finance Tracker
-          - Login-Scraping
-      - Desktop Cleaner (File-Organizer)
+      - Desktop Cleaner (File-Organizer) - Using Python - It allows organisations of such files specifically on Mac products to be organised as the main desktop get cluttered
   
   - University Project 
       - Smart Traffic Light System (STLS) - Python and Tkinter - Image processing to alow a constant flow of traffic as well as changing the green light timer dependant on the amount of vehicles standstill
