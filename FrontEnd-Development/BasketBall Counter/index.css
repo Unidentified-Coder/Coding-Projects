@@ -1,28 +1,32 @@
 body {
     margin: 0;
+    font-family: "Cursed Timer", sans-serif;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .home,
 .guest{
-    font-family: "Cursed Timer", sans-serif;
     font-size: 150px;
     color:#F94F6D;
     background: black;
     padding: 50px 50px;
     border-radius: 50px;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.score_button,
-.score_button1{
+.score_button{
     justify-content: center;
     width: 500px;
     padding: 20px;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
 }
 
 #home_score,
@@ -34,9 +38,3 @@ body {
 
 }
 
-.plus_score{
-    font-size: 50px;
-    padding: 5px;
-    margin: 10px;
-    font-family: "CursedTimer";
-}
