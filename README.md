@@ -6,7 +6,7 @@ Here are a list of coding projects I have taken onboard each have there on chall
 
 - CRUD (Website - Countries/Languages/Cities) - Using `HTML CSS Node.js Docker Pug and SQl`
 
-## 🐍 Python Automated Scripts
+## ![alt text](image.png) Python Automated Scripts
 
 - Desktop Cleaner (File-Organizer) - Using `Python` - It allows organisations of such files specifically on Mac products to be organised as the main desktop get cluttered
 
