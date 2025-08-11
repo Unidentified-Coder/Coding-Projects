@@ -1,10 +1,10 @@
 ## Notebook to log errors/bugs and to plan for future Projects
 
-<!-- 07 August 2025 -->
+## 07 August 2025
 
 Current Bugs/Errors - Basketball Counter incorrectly displayed (Vertical instead of Horizontal) and format is wrong
 
-<!-- 08 August 2025 -->
+## 08 August 2025
 
 FrontEnd-Development/Basketball Counter - Started from scratch as errors was not getting corrected no matter what was changed
 
@@ -18,7 +18,7 @@ Potential Project using React.js, tailwindcss, and framer motion
 - Naruto (Sasuke Uchiha)
 - Sakamoto Days (Sakamoto prime)
 
-## <!-- 11 August 2025 -->
+## 11 August 2025
 
 Bugs/ Errors
 Fixed layout for basketball counter
