@@ -22,3 +22,8 @@ Potential Project using React.js, tailwindcss, and framer motion
 
 Bugs/ Errors
 Fixed layout for basketball counter
+
+- Total points needs to be centered
+- Buttons needs to be below the total points
+- Styling and color is required
+- Link JavaScript to buttons
