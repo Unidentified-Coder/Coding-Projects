@@ -17,3 +17,8 @@ Potential Project using React.js, tailwindcss, and framer motion
 - The Seven Deadly Sins (Escanor)
 - Naruto (Sasuke Uchiha)
 - Sakamoto Days (Sakamoto prime)
+
+## <!-- 11 August 2025 -->
+
+Bugs/ Errors
+Fixed layout for basketball counter
