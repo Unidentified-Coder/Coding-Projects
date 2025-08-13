@@ -14,3 +14,14 @@ function away_add(pass){
     guest += pass
     document.getElementById("A_Score").textContent = guest
 }
+
+function clear(){
+    document.getElementById("H_Score").textContent = home
+    document.getElementById("A_Score").textContent = guest
+}
+
+function resetScore(){
+    home = 0
+    guest = 0
+    clear()
+}
