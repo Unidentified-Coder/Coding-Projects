@@ -8,24 +8,25 @@
         <div class="container">
             <div class="Home-Score">
                 <h3>HOME</h3>
-                <span>0</span>
+                <span id="H_Score">0</span>
 
                 <div class="Home-btns">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="home_add(1)">+1</button>
+                    <button onclick="home_add(2)">+2</button>
+                    <button onclick="home_add(3)">+3</button>
                 
                 </div>
             </div>
+            
             <div class="Away-Score">
                 <h3>AWAY</h3>
-                <span>0</span>
+                <span id="A_Score">0</span>
                 
                 <div class="Away-btns">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
-                
+                    <button onclick="away_add(1)">+1</button>
+                    <button onclick="away_add(2)">+2</button>
+                    <button onclick="away_add(3)">+3</button>
+            
                 </div>
             </div>
         </div>
