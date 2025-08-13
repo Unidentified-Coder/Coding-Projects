@@ -27,3 +27,14 @@ Fixed layout for basketball counter
 - Buttons needs to be below the total points
 - Styling and color is required
 - Link JavaScript to buttons
+
+## 12 August 2025
+
+Fixed layout for basketball counter
+Centered the total points
+Buttons are centered and below the total
+Styling and color is matched to the figma spec
+
+- JavaScript needs to be linked
+
+## 13 August 2025
