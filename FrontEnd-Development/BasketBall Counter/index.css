@@ -1,5 +1,4 @@
 body {
-    font-family: "Cursed Timer", sans-serif;
     background: #1B244A;
 }
 
@@ -13,8 +12,16 @@ h3{
     justify-content: center;
     font-size: 50px;
     color: #ffffff;
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 span{
+    font-family: 'Cursed Timer ULiL', sans-serif;
     display: flex;
     justify-content: center;
     font-size: 100px;
@@ -22,24 +29,24 @@ span{
     background: black;
     padding: 30px 50px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
 
 button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
     display: flex;
     justify-content: center;
     color: #b3c7f7;
-    margin-top: 20px;
+    margin-top: 10px;
     background: #9AABD8;
     border: 2px solid #4a6ef5;
     border-radius: 8px;
-    padding: 10px 15px;
+    padding: 15px 15px;
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
-    font-family: 'Orbitron', sans-serif;
 }
 
 button:hover{
