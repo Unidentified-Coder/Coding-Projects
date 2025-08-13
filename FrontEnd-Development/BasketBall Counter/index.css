@@ -4,7 +4,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 h3{
@@ -37,7 +37,7 @@ span{
 button{
     font-family: 'Cursed Timer ULiL', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #b3c7f7;
     margin-top: 10px;
     background: #9AABD8;
@@ -57,4 +57,8 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+#Reset-btn{
+    margin-top: 290px;
 }
